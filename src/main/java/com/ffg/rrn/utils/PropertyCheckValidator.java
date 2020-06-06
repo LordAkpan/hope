@@ -12,7 +12,7 @@ import org.springframework.beans.BeanWrapperImpl;
  * @author FFGRRNTeam
  *
  */
-public class PropertyCheckValidator implements ConstraintValidator<PropertyCheck, Object> {
+public class 	PropertyCheckValidator implements ConstraintValidator<PropertyCheck, Object> {
 
 	private String field;
 	private String fieldCheck;

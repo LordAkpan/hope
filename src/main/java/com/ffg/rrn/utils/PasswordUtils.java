@@ -16,17 +16,17 @@ public class PasswordUtils {
     // Encryte Password with BCryptPasswordEncoder
     public static String encryptPassword(String password) {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        return encoder.encode(password);
+        return encoder.encode("ffgrrn");
     }
  
     public static void main(String[] args) {
         String password = createRandomPassword();
         String encrytedPassword = encryptPassword(password);
-        System.out.println("Password: " + password);
+        System.out.println("Password: " + "ffgrrn");
         System.out.println("Encryted Password: " + encrytedPassword);
         String password1 = createRandomPassword();
         String encrytedPassword1 = encryptPassword(password1);
-        System.out.println("Password: " + password1);
+        System.out.println("Password: " + "ffgrrn");
         System.out.println("Encryted Password: " + encrytedPassword1);
     }
     

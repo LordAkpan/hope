@@ -652,19 +652,19 @@ INSERT INTO PROPERTY values (nextval('PROP_SQ'),'Washington Court Apts', 50, 100
 --------------------------------------
  
 insert into SERVICE_COORDINATOR (SC_ID, USER_NAME, ENCRYPTED_PASSWORD, ACTIVE, EMAIL)
-values (nextval('SC_SQ'), 'dbadmin1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu',TRUE,'dbadmin1@email.com');
+values (nextval('SC_SQ'), 'dbadmin1', '$2a$10$xZv2m2nnb.PVKeBDeeuHrOoDaPFPJWTaUytizuLHHFfeWNVDZKWYa',TRUE,'dbadmin1@email.com');
 
 insert into SERVICE_COORDINATOR (SC_ID, USER_NAME, ENCRYPTED_PASSWORD, ACTIVE, EMAIL,  PROP_ID)
-values (nextval('SC_SQ'), 'dbuser1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu',TRUE, 'dbuser1@email.com', 1);
+values (nextval('SC_SQ'), 'dbuser1', '$2a$10$xZv2m2nnb.PVKeBDeeuHrOoDaPFPJWTaUytizuLHHFfeWNVDZKWYa',TRUE, 'dbuser1@email.com', 1);
 
 insert into SERVICE_COORDINATOR (SC_ID, USER_NAME, ENCRYPTED_PASSWORD, ACTIVE, EMAIL, PROP_ID)
-values (nextval('SC_SQ'), 'dbuser2', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu',FALSE,'dbuser2@email.com', 2);
+values (nextval('SC_SQ'), 'dbuser2', '$2a$10$fBvtuYh6LNgpJIj8ICoaBOUbqu3Ylxx/I0kIEK52NzxVVDKT/5owW',FALSE,'dbuser2@email.com', 2);
 
 insert into SERVICE_COORDINATOR (SC_ID, USER_NAME, ENCRYPTED_PASSWORD, ACTIVE, EMAIL,  PROP_ID)
-values (nextval('SC_SQ'), 'dbuser3', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu',FALSE,'dbuser3@email.com', 3);
+values (nextval('SC_SQ'), 'dbuser3', '$2a$10$fBvtuYh6LNgpJIj8ICoaBOUbqu3Ylxx/I0kIEK52NzxVVDKT/5owW',FALSE,'dbuser3@email.com', 3);
 
 insert into SERVICE_COORDINATOR (SC_ID, USER_NAME, ENCRYPTED_PASSWORD, ACTIVE, EMAIL)
-values (nextval('SC_SQ'), 'dbadmin2', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu',FALSE,'dbadmin2@email.com');
+values (nextval('SC_SQ'), 'dbadmin2', '$2a$10$fBvtuYh6LNgpJIj8ICoaBOUbqu3Ylxx/I0kIEK52NzxVVDKT/5owW',FALSE,'dbadmin2@email.com');
 
 -------------------------------------------
  
